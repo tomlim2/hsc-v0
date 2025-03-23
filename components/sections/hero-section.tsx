@@ -17,7 +17,7 @@ export default function HeroSection() {
         priority
       />
       <div
-        className="absolute right-0 bottom-0 p-0"
+        className="absolute right-16 bottom-0 p-0"
         style={{ padding: "0 60px 120px 0" }}
       >
         <div className="container px-4 mx-auto">
@@ -30,7 +30,7 @@ export default function HeroSection() {
           >
             <div className="max-w-xl">
               <h1
-                className="text-hsc-white font-bold eb-garamond-serif-regular"
+                className="text-hsc-white eb-garamond-serif-regular"
                 style={{
                   marginBottom: ".5em",
                   textIndent: "-.44em",
@@ -43,7 +43,7 @@ export default function HeroSection() {
                 <span className="quote-mark" style={{ marginRight: ".14em" }}>
                   "
                 </span>
-                HSC is Highway Robbery. But They’re Good."
+                Empowering Global Success Through Distinctive Education"
               </h1>
               <cite
                 className="mt-4 text-xl text-hsc-white"
@@ -57,7 +57,7 @@ export default function HeroSection() {
                 <span className="dash" style={{ textIndent: "-1.1em" }}>
                   —
                 </span>
-                We've helped thousands of students get into their dream schools
+                &nbsp;We've helped thousands of students get into their dream schools
               </cite>
             </div>
           </blockquote>

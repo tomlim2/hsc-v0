@@ -1,19 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { IBM_Plex_Serif, Alegreya, EB_Garamond } from "next/font/google";
-
-// Import the font
-const ibmPlexSerif = IBM_Plex_Serif({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-});
-
-const alegreyaSerif = Alegreya({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-});
+import {
+  EB_Garamond,
+  Gothic_A1,
+  Public_Sans,
+  Roboto_Condensed,
+} from "next/font/google";
 
 const ebGaramond = EB_Garamond({
   subsets: ["latin"],
@@ -21,7 +13,43 @@ const ebGaramond = EB_Garamond({
   weight: "400",
 });
 
-const combinedClassName = `${ibmPlexSerif.className} ${alegreyaSerif.className} ${ebGaramond.className}`;
+const gothicA1 = Gothic_A1({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+});
+
+const gothicA1Bold = Gothic_A1({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "800",
+});
+
+const publicSans = Public_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+});
+
+const publicSansBold = Public_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "700",
+});
+
+const robotoCondensed400 = Roboto_Condensed({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+});
+
+const robotoCondensed700 = Roboto_Condensed({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "700",
+});
+
+const combinedClassName = `${robotoCondensed400.className} ${robotoCondensed700.className} ${publicSansBold.className} ${publicSans.className} ${ebGaramond.className} ${gothicA1.className} ${gothicA1Bold.className}`;
 
 export const metadata: Metadata = {
   title: "HSC",

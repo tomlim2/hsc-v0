@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between md:flex-row">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="text-xl font-bold text-[#003366]">
-              IVY COACH
+              HSC
             </Link>
           </div>
           <div className="flex space-x-4">
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-4 text-sm text-center text-gray-600">
-          © {new Date().getFullYear()} Ivy Coach. All rights reserved.
+          © {new Date().getFullYear()} HSC. All rights reserved.
         </div>
       </div>
     </footer>

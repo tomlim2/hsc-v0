@@ -3,24 +3,42 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gothic A1", Arial, Helvetica, sans-serif;
 }
 
-.ibm-plex-serif-regular {
-  font-family: "IBM Plex Serif", serif;
+.gothic-sans-serif-regular {
+  font-family: "Gothic A1", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.alegreya-serif-semibold {
-  font-family: "Alegreya", serif;
-  font-weight: 600;
+.gothic-a1-extrabold {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 800;
   font-style: normal;
 }
 
 .eb-garamond-serif-regular {
   font-family: "EB Garamond", serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.public-sans-regular {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-regular {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-hsc-bold {
+  font-family: "Roboto Condensed","Public Sans", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -65,6 +83,7 @@ body {
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    --base-font-size: 16;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -116,5 +135,5 @@ body {
 }
 
 .bg-hsc-white {
-	background-color: #fffff0;
-  }
+  background-color: #fffff0;
+}

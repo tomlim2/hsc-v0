@@ -6,6 +6,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alegreya-serif-semibold {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.eb-garamond-serif-regular {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -14,7 +32,7 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 210 100% 20%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -92,3 +110,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.text-hsc-white {
+  color: #fffff0;
+}
+
+.bg-hsc-white {
+	background-color: #fffff0;
+  }

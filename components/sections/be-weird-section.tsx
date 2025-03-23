@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
@@ -11,13 +13,13 @@ export default function BeWeirdSection() {
         className="object-cover brightness-50"
       />
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="text-center text-white">
+        <div className="text-center text-hsc-white">
           <h2 className="text-4xl font-bold uppercase">
             Come Be Weird
             <br />
             With Us
           </h2>
-          <Button className="mt-6 bg-white text-[#0a3b25] hover:bg-gray-100">Get Started</Button>
+          <Button className="mt-6 bg-hsc-white text-[#003366] hover:bg-gray-100">Get Started</Button>
         </div>
       </div>
     </section>

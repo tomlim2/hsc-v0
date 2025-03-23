@@ -14,19 +14,19 @@ import Footer from "@/components/sections/footer"
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <HeroSection />
-      <TrackRecordSection />
-      <BlogSection />
-      <NotJustGradesSection />
-      <CounselorsHelpSection />
-      <BeWeirdSection />
-      <PressSection />
-      <OfficersSection />
-      <ConquestSection />
-      <Footer />
-    </div>
+	<div className="flex flex-col min-h-screen">
+	  <Header />
+	  <HeroSection />
+	  {/* <TrackRecordSection /> */}
+	  {/* <BlogSection /> */}
+	  <NotJustGradesSection />
+	  <CounselorsHelpSection />
+	  {/* <BeWeirdSection /> */}
+	  {/* <PressSection /> */}
+	  {/* <OfficersSection /> */}
+	  <ConquestSection />
+	  <Footer />
+	</div>
   )
 }
 

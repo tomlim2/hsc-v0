@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 
 export default function OfficersSection() {
@@ -14,9 +16,9 @@ export default function OfficersSection() {
   ]
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-hsc-white">
       <div className="container px-4 mx-auto">
-        <h2 className="text-3xl font-bold text-center text-[#0a3b25] uppercase">
+        <h2 className="text-3xl font-bold text-center text-[#003366] uppercase">
           Ivy Coach's Former Admissions Officers
         </h2>
 
@@ -26,7 +28,7 @@ export default function OfficersSection() {
               <div className="relative w-32 h-32 overflow-hidden rounded-full">
                 <Image src="/placeholder.svg?height=128&width=128" alt={person.name} fill className="object-cover" />
               </div>
-              <h3 className="mt-4 font-bold text-[#0a3b25]">{person.name}</h3>
+              <h3 className="mt-4 font-bold text-[#003366]">{person.name}</h3>
               <p className="text-sm text-gray-600">{person.title}</p>
             </div>
           ))}

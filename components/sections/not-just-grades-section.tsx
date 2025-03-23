@@ -1,8 +1,10 @@
+"use client"
+
 import Image from "next/image"
 
 export default function NotJustGradesSection() {
   return (
-    <section className="py-16 bg-[#0a3b25] text-white">
+    <section className="py-16 bg-[#003366] text-hsc-white">
       <div className="container px-4 mx-auto">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold uppercase">It's Not Just About Grades & Scores</h2>

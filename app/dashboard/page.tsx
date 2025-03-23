@@ -6,8 +6,8 @@ export default function DashboardPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h1 className="text-3xl font-bold text-[#0a3b25]">Dashboard</h1>
-        <Button className="bg-[#0a3b25] hover:bg-[#0a3b25]/90">New Application</Button>
+        <h1 className="text-3xl font-bold text-[#003366]">Dashboard</h1>
+        <Button className="bg-[#003366] hover:bg-[#003366]/90">New Application</Button>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -136,7 +136,7 @@ export default function DashboardPage() {
                   Join
                 </Button>
               </div>
-              <Button variant="link" className="w-full mt-2 text-[#0a3b25]">
+              <Button variant="link" className="w-full mt-2 text-[#003366]">
                 View All Sessions <ArrowRight className="ml-1 h-4 w-4" />
               </Button>
             </div>

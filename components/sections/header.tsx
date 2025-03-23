@@ -40,13 +40,13 @@ export default function Header() {
       {/* Header/Navigation */}
       <header
         className={`fixed top-0 z-50 w-full transition-all duration-300 ${
-          scrollDirection === "down" && scrollPosition > 100
+          scrollDirection === "down" && scrollPosition > 0
             ? "-translate-y-full"
             : "translate-y-0"
         } ${
-          scrollDirection === "up" && scrollPosition > 100
-            ? "bg-white text-[#003366] shadow-md"
-            : "bg-transparent text-white"
+          scrollDirection === "up" && scrollPosition > 0
+            ? "bg-hsc-white text-[#003366] shadow-md"
+            : "bg-transparent text-hsc-white"
         }`}
       >
         <div className="container flex items-center justify-between h-[100px] px-4 mx-auto">
@@ -55,7 +55,7 @@ export default function Header() {
               <HscLogo
                 width={200}
                 height={54}
-                color={scrollPosition > 100 ? "#003366" : "#ffffff"}
+                color={scrollDirection === "up" && scrollPosition > 0 ? "#003366" : "#fffff0"}
               />
             </Link>
           </div>

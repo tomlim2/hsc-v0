@@ -42,7 +42,7 @@ export function Sidebar({ className, items, ...props }: SidebarProps) {
       {/* Desktop Sidebar */}
       <div className={cn("hidden md:flex h-screen flex-col", className)} {...props}>
         <div className="py-4 px-4 border-b">
-          <Link href="/" className="flex items-center gap-2 font-bold text-xl text-[#0a3b25]">
+          <Link href="/" className="flex items-center gap-2 font-bold text-xl text-[#003366]">
             IVY COACH
           </Link>
         </div>
@@ -94,7 +94,7 @@ function MobileSidebar({ items, setOpen }: MobileSidebarProps) {
       <div className="py-4 px-4 border-b">
         <Link
           href="/"
-          className="flex items-center gap-2 font-bold text-xl text-[#0a3b25]"
+          className="flex items-center gap-2 font-bold text-xl text-[#003366]"
           onClick={() => setOpen(false)}
         >
           IVY COACH

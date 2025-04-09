@@ -1,5 +1,3 @@
-"use client"
-
 import Header from "@/components/sections/header"
 import HeroSection from "@/components/sections/hero-section"
 import TrackRecordSection from "@/components/sections/track-record-section"

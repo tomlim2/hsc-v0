@@ -1,8 +1,15 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, BookOpen, Calendar, GraduationCap, Users } from "lucide-react"
+'use client';
+
+import React, { useState } from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { ArrowRight, BookOpen, Calendar, GraduationCap, Users } from 'lucide-react';
+
+export const dynamic = 'force-dynamic'; // Disable static rendering
 
 export default function DashboardPage() {
+  const [state, setState] = useState(null); // Replace with your actual state logic
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
@@ -144,6 +151,6 @@ export default function DashboardPage() {
         </Card>
       </div>
     </div>
-  )
+  );
 }
 

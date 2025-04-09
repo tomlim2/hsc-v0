@@ -1,4 +1,6 @@
-import type React from "react"
+"use client"
+
+import React from "react" // Changed from import type React
 import { Sidebar } from "@/components/sidebar"
 import { BookOpen, GraduationCap, BarChart, Calendar, Users, FileText, Settings } from "lucide-react"
 

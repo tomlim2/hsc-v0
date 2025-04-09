@@ -19,9 +19,9 @@ export default function Home() {
 	  {/* <BlogSection /> */}
 	  <NotJustGradesSection />
 	  <CounselorsHelpSection />
-	  {/* <BeWeirdSection /> */}
+	  <BeWeirdSection />
 	  {/* <PressSection /> */}
-	  {/* <OfficersSection /> */}
+	  <OfficersSection />
 	  <ConquestSection />
 	  <Footer />
 	</div>

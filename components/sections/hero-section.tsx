@@ -11,7 +11,23 @@ export default function HeroSection() {
 			height: "clamp(500px, 80vw, 940px)",
 		}}
 	>
-		<img
+		<video
+			autoPlay
+			loop
+			muted
+			playsInline
+			className="object-cover w-full h-full"
+			style={{
+				position: "absolute",
+				top: 0,
+				left: 0,
+				filter: "opacity(0.75)",
+			}}
+		>
+			<source src="/video/footage_01.mp4" type="video/mp4" />
+			Your browser does not support the video tag.
+		</video>
+		{/* <img
 			src="/image-university-003.webp"
 			alt="University campus aerial view"
 			className="object-cover w-full h-full"
@@ -21,7 +37,7 @@ export default function HeroSection() {
 				left: 0,
 				filter: "opacity(0.5)",
 			}}
-		/>
+		/> */}
 		<div
 			className="absolute right-16 bottom-0 p-0"
 			style={{ padding: "0 60px 120px 0" }}

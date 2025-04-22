@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 
 export default function CounselorsHelpSection() {
   return (
-    <section className="py-16 bg-hsc-white">
+    <section className="py-32 bg-hsc-white">
       <div className="container px-4 mx-auto">
         <h2
           className="text-[calc((80/16)*.75rem)] font-hsc-bold text-center text-[#003366] uppercase"

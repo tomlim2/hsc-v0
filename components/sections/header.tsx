@@ -45,36 +45,19 @@ export default function Header() {
             : "translate-y-0"
         } ${
           scrollDirection === "up" && scrollPosition > 0
-            ? "bg-hsc-white text-[#003366] shadow-md"
+            ? "bg-hsc-white-header text-[#003366] shadow-md"
             : "bg-transparent text-hsc-white"
         }`}
       >
-		<div className="container flex items-center justify-between h-[100px] px-4 mx-auto">
-		  {/* Home Button */}
-		  <div className="flex items-center">
-			<Link href="/" className="text-lg font-medium text-hsc-white hover:text-[#003366] transition-colors">
-			  Home
-			</Link>
-		  </div>
-
+		<div className="container flex items-center h-[100px] px-4">
 		  {/* Logo */}
-		  <div className="flex items-center justify-center">
+		  <div className="flex items-center justify-center m-auto">
 			<Link href="/" className="text-xl font-bold">
 			  <HscLogo
 			width={200}
 			height={54}
 			color={scrollDirection === "up" && scrollPosition > 0 ? "#003366" : "#fffff0"}
 			  />
-			</Link>
-		  </div>
-
-		  {/* Get Started Button */}
-		  <div className="flex items-center">
-			<Link
-			  href="/get-started"
-			  className="px-4 py-2 text-lg font-medium text-hsc-white bg-[#003366] rounded hover:bg-[#002244] transition-colors"
-			>
-			  Get Started
 			</Link>
 		  </div>
 		</div>

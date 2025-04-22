@@ -37,7 +37,7 @@ body {
 }
 
 .font-hsc-bold {
-  font-family: "Roboto Condensed","Public Sans", sans-serif;
+  font-family: "Roboto Condensed", "Public Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -134,6 +134,18 @@ body {
   color: #fffff0;
 }
 
+.text-hsc-yellow {
+	color: #ffd700;
+  }
+
 .bg-hsc-white {
   background-color: #fffff0;
+}
+
+.bg-hsc-yellow {
+  background-color: #ffd700;
+}
+
+.bg-hsc-white-header {
+  background-color: rgba(255, 255, 255, 0.8);
 }

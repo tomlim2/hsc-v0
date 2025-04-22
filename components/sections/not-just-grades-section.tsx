@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function NotJustGradesSection() {
   return (
-    <section className="py-16 bg-[#003366] text-hsc-white">
+    <section className="py-40 bg-[#003366] text-hsc-white">
       <div className="container px-4 mx-auto grid md:grid-cols-2 items-center gap-16">
         <div className="max-w-4xl mx-auto text-center">
           <h2
@@ -41,7 +41,7 @@ export default function NotJustGradesSection() {
         </div>
         <div className="relative overflow-hidden bg-gray-200 rounded-lg aspect-square">
           <Image
-            src="/placeholder.svg?height=150&width=150"
+            src="/image-idea-002.jpg"
             alt={`Student`}
             fill
             className="object-cover"

@@ -65,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={combinedClassName}>
       <head>
-        <link rel="icon" href="/hsv/favicon.ico" sizes="any" />
+        <link rel="icon" href="/hsv/favicon.svg" sizes="any" />
         <link rel="icon" type="image/svg+xml" href="/hsc/favicon.svg" />
       </head>
       <body>{children}</body>
